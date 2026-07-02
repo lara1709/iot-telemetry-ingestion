@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "recordId": "1",
+      "data": {
+        "deviceId": "scooter-123",
+        "timestamp": "2026-07-02T10:30:30Z",
+        "gps": { "lat": 52.52, "lon": 13.405 },
+        "battery": 90,
+        "speed": 12
+      }
+    }
+  ]
+}
