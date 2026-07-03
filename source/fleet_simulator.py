@@ -7,7 +7,7 @@ def create_fleet(count):
     start_lon = 13.4050
     for i in range(count):
         scooter = ScooterSimulator(
-            device_id=f"scooter-{i+1}",
+            deviceId=f"scooter-{i+1}",
             start_lat=start_lat + (i * 0.0005),
             start_lon=start_lon + (i * 0.0005)
         )

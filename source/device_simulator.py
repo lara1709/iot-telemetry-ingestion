@@ -23,7 +23,7 @@ class ScooterSimulator:
     def update_position(self):
         distance_km = self.speed /3600
         distance_deg = distance_km /111
-        direction = random.uniform(0.2 * math.pi)
+        direction = random.uniform(0, 2 * math.pi)
         self.lat += math.cos(direction) * distance_deg
         self.lon += math.sin(direction) * distance_deg
 
