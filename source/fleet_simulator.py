@@ -1,5 +1,5 @@
 import time
-from device_simulator import ScooterSimulator
+from source.device_simulator import ScooterSimulator
 
 def create_fleet(count):
     fleet = []

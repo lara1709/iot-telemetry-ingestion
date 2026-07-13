@@ -1,8 +1,9 @@
 import paho.mqtt.client as mqtt
 import time
 import json
-from fleet_simulator import create_fleet
-
+from source.fleet_simulator import create_fleet
+from source.device_simulator import ScooterSimulator
+from source.utils.payload_generator import generate_payload
 
 BROKER = "test.mosquitto.org"
 PORT = 1883

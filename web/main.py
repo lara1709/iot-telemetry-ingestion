@@ -3,4 +3,4 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return{"status": "running", "message": "Scooter Telemetry API is live!"}
+    return{"message": "IoT Telemetry API is running"}
